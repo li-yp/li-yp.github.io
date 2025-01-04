@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://li-yp.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://yunpengli.ac/sitemap.xml
