@@ -1,0 +1,12 @@
+postdocs:
+  - name: Xiongjie Chen
+    title: Bayesian inference, AI for dentistry
+    image: assets/images/team/yuxiang_zhou.jpg
+
+phd_students:
+  - name: Zhi Qin Tan
+    title: Uncertainty-aware machine learning, AI for dentistry
+    image: assets/images/team/xinyu_wang.jpg
+  - name: John-Joseph Brady
+    title: Differentiable particle filters.
+    image: assets/images/team/zhaoyue_sun.jpg

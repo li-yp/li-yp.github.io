@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: Yunpeng_Li.jpeg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Floor 17, Guys Tower</p>
+    <p>Great Maze Pond</p>
+    <p>London SE1 9RT</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Yunpeng Li is a Reader in AI & Digital Oral Health in the [Centre for Oral, Clinical & Translational Sciences](https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences) in the [Faculty of Dentistry, Oral & Craniofacial Sciences](https://www.kcl.ac.uk/dentistry) at [King’s College London](https://www.kcl.ac.uk/). He was a Junior Research Fellow in the [Wolfson College](https://www.wolfson.ox.ac.uk/) and Postdoctoral Researcher with [Steve Roberts](https://www.robots.ox.ac.uk/~sjrob/) in the [Machine Learning Research Group](https://eng.ox.ac.uk/about/machine-learning-research-group/) at the [University of Oxford](https://www.ox.ac.uk/) in 2017-2018, and faculty member in the [Computer Science Research Centre](https://www.surrey.ac.uk/computer-science-research-centre) at the [University of Surrey](https://www.surrey.ac.uk/) in 2018-2024. He completed his Ph.D. in electrical engineering with [Mark Coates](https://www.ece.mcgill.ca/~mcoate/) in the [Department of Electrical and Computer Engineering](https://www.mcgill.ca/ece/) at McGill University in Montréal, Canada in 2017.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+His research applies statistical machine learning and Bayesian statistics to a wide range of domains including clinical and environmental AI applications. He is particularly interested in developing novel machine learning methodologies and products to solve unmet needs in dental and oral health, biodiversity, and computational statistics. Ongoing projects include the [Development and pre-market evaluation of AI-assisted dental disease detection with radiography](https://www.kcl.ac.uk/news/dentists-could-soon-have-a-new-ai-co-pilot-to-detect-tooth-decay) supported by an [NIHR Invention for Innovation (i4i) Product Development Award](https://fundingawards.nihr.ac.uk/award/NIHR204566), and [HumBug II: enabling large-scale acoustic monitoring for invasive insect species](https://humbug.ox.ac.uk/the-project#tab-5003961) supported by the [NERC Innovation in Environmental Monitoring programme](https://www.ukri.org/news/uk-invests-in-monitoring-of-natural-environment/).
