@@ -1,21 +1,22 @@
-{% comment %} From https://github.com/sailing-lab/sailing-lab.github.io/blob/main/_includes/projects_horizontal.html {% endcomment %}
+<!-- Modified from https://github.com/sailing-lab/sailing-lab.github.io/blob/main/_includes/projects_horizontal.html -->
 
 <div class="card-item col">
   {% if project.redirect %}
-  <a href="{{ project.redirect }}">
+  <a href="{{ project.redirect }}"></a>
   {% else %}
-  <a href="{{ project.url | relative_url }}">
+  <a href="{{ project.url | relative_url }}"></a>
+
   {% endif %}
-    <div class="card hoverable">
-      <div class="row g-0">
-        {% if project.img %}
-        <div class="card-img col-md-6">
-          <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-        </div>
-        <div class="col-md-6">
+  <div class="card hoverable">
+    <div class="row g-0">
+      {% if project.img %}
+      <div class="card-img col-md-6">
+        <img src="{{ project.img | relative_url }}" alt="project thumbnail" />
+      </div>
+      <div class="col-md-6">
         {% else %}
         <div class="col-md-12">
-        {% endif %}
+          {% endif %}
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
@@ -38,5 +39,5 @@
         </div>
       </div>
     </div>
-  </a>
+  </div>
 </div>
