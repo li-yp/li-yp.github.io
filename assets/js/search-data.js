@@ -57,7 +57,7 @@ ninja.data = [{
           section: "News",},{id: "news-owen-addison-and-i-published-an-opinion-piece-at-bdj-in-practice-to-discuss-our-nihr-sponsored-project-and-becertain-ai",
           title: 'Owen Addison and I published an opinion piece at BDJ in Practice to...',
           description: "",
-          section: "News",},{id: "news-i-introduced-our-internal-testing-product-of-radiograph-based-dental-disease-detection-accessible-via-becertain-ai-at-royal-college-of-surgeons-of-england-in-the-workshop-of-ai-and-digital-innovation-in-dentistry-and-oral-health-revolutionising-approaches-to-care-or-just-another-myth",
+          section: "News",},{id: "news-i-introduced-our-internal-testing-product-of-radiograph-based-dental-disease-detection-accessible-via-becertain-ai-at-royal-college-of-surgeons-of-england-in-the-workshop-of-ai-and-digital-innovation-in-dentistry-and-oral-health",
           title: 'I introduced our internal testing product of radiograph-based dental disease detection, accessible via...',
           description: "",
           section: "News",},{id: "news-i-gave-a-talk-on-normalizing-flow-based-differentiable-particle-filters-at-the-kcl-statistics-seminar",
