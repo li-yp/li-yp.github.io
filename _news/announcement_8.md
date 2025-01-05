@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2024-11-04
+inline: true
+related_posts: false
+---
+
+[Owen Addison](https://www.kcl.ac.uk/people/owen-addison) and I published an [opinion piece at BDJ in Practice](https://www.nature.com/bdjinpractice/) to discuss our [NIHR-sponsored project](https://www.kcl.ac.uk/news/dentists-could-soon-have-a-new-ai-co-pilot-to-detect-tooth-decay) and [becertain.ai](https://becertain.ai/)
