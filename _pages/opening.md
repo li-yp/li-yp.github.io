@@ -4,7 +4,7 @@ permalink: /opening/
 title: Openings
 description:
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 I am accepting new PhD and MPhil students. Our research group is interested in developing fundamental methodologies in trustworthy AI, statistical signal processing, and multimodal machine learning, as well as translational work to address real-world, interdisciplinary applications in healthcare and environmental sciences.

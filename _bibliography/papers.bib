@@ -1,12 +1,30 @@
 ---
 ---
 
-@String{ECCV= {European Conference on Computer Vision (ECCV)}}
+@String{ECCV={European Conference on Computer Vision (ECCV)}}
 @String{NeurIPS={Conference on Neural Information Processing Systems (NeurIPS)}}
 @String{ICLR={International Conference on Learning Representations (ICLR)}}
 @String{TSP={IEEE Transactions on Signal Processing (TSP)}}
 @String{ECML={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)}}
 @String{BSPC={Biomedical Signal Processing and Control (BSPC)}}
+@String{FUSION={International Conference on Information Fusion (FUSION)}}
+@String{MIUA={Medical Image Understanding and Analysis (MIUA)}}
+@String{ICASSP={International Conference on Acoustics, Speech and Signal Processing (ICASSP)}}
+@String{EUSIPCO={European Signal Processing Conference (EUSIPCO)}}
+@String{ICRA={International Conference on Robotics and Automation (ICRA)}}
+
+
+@article{Brady2024b,
+  abbr={arXiv},
+  title={Differentiable Interacting Multiple Model Particle Filtering},
+  author={Brady, John-Joseph and Luo, Yuhui and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
+  journal={arXiv preprint arXiv:2410.00620},
+  year={2024},
+  abstract={We propose a sequential Monte Carlo algorithm for parameter learning when the studied model exhibits random discontinuous jumps in behaviour. To facilitate the learning of high dimensional parameter sets, such as those associated to neural networks, we adopt the emerging framework of differentiable particle filtering, wherein parameters are trained by gradient descent. We design a new differentiable interacting multiple model particle filter to be capable of learning the individual behavioural regimes and the model which controls the jumping simultaneously. In contrast to previous approaches, our algorithm allows control of the computational effort assigned per regime whilst using the probability of being in a given regime to guide sampling. Furthermore, we develop a new gradient estimator that has a lower variance than established approaches and remains fast to compute, for which we prove consistency. We establish new theoretical results of the presented algorithms and demonstrate superior numerical performance compared to the previous state-of-the-art algorithms.},
+  code={https://github.com/John-JoB/DIMMPF},
+  pdf={https://arxiv.org/pdf/2410.00620},
+  selected={false}
+}
 
 @article{Chen2024,
   abbr={TSP},
@@ -36,6 +54,127 @@
   selected={true}
 }
 
+@inproceedings{banks2024,
+  abbr={MIUA},
+  title={H-FCBFormer: Hierarchical Fully Convolutional Branch Transformer for Occlusal Contact Segmentation with Articulating Paper},
+  author={Banks, Ryan and Rovira-Lastra, Bernat and Martinez-Gomis, Jordi and Chaurasia, Akhilanand and Li, Yunpeng},
+  abstract={Occlusal contacts are the locations at which the occluding surfaces of the maxilla and the mandible posterior teeth meet. Occlusal contact detection is a vital tool for restoring the loss of masticatory function and is a mandatory assessment in the field of dentistry, with particular importance in prosthodontics and restorative dentistry. The most common method for occlusal contact detection is articulating paper. However, this method can indicate significant medically false positive and medically false negative contact areas, leaving the identification of true occlusal indications to clinicians. To address this, we propose a multiclass Vision Transformer and Fully Convolutional Network ensemble semantic segmentation model with a combination hierarchical loss function, which we name as Hierarchical Fully Convolutional Branch Transformer (H-FCBFormer). We also propose a method of generating medically true positive semantic segmentation masks derived from expert annotated articulating paper masks and gold standard masks. The proposed model outperforms other machine learning methods evaluated at detecting medically true positive contacts and performs better than dentists in terms of accurately identifying object-wise occlusal contact areas while taking significantly less time to identify them. Code is available at https://github.com/Banksylel/H-FCBFormer.},
+  booktitle={MIUA},
+  pages={72--86},
+  year={2024},
+  code={https://github.com/Banksylel/H-FCBFormer},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-66958-3_6},
+  pdf={https://arxiv.org/pdf/2407.07604},
+  selected={false}
+}
+
+@inproceedings{brady2024a,
+  abbr={FUSION},
+  title={Regime Learning for Differentiable Particle Filters},
+  author={Brady, John-Joseph and Luo, Yuhui and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
+  abstract={Differentiable particle filters are an emerging class of models that combine sequential Monte Carlo techniques with the flexibility of neural networks to perform state space inference. This paper concerns the case where the system may switch between a finite set of state-space models, i.e. regimes. No prior approaches effectively learn both the individual regimes and the switching process simultaneously. In this paper, we propose the neural network based regime learning differentiable particle filter (RLPF) to address this problem. We further design a training procedure for the RLPF and other related algorithms. We demonstrate competitive performance compared to the previous state-of-the-art algorithms on a pair of numerical experiments.},
+  booktitle=FUSION,
+  code={https://github.com/John-JoB/Regime_Switching},
+  html={https://ieeexplore.ieee.org/document/10706317},
+  pdf={https://arxiv.org/pdf/2405.04865},
+  year={2024},
+  selected={false}
+}
+
+@inproceedings{li2024revisiting,
+  abbr={SAM},
+  title={Revisiting semi-supervised training objectives for differentiable particle filters},
+  author={Li, Jiaxi and Brady, John-Joseph and Chen, Xiongjie and Li, Yunpeng},
+  abstract={Differentiable particle filters combine the flexibility of neural networks with the probabilistic nature of sequential Monte Carlo methods. However, traditional approaches rely on the availability of labelled data, i.e., the ground truth latent state information, which is often difficult to obtain in real-world applications. This paper compares the effectiveness of two semisupervised training objectives for differentiable particle filters. We present results in two simulated environments where labelled data are scarce},
+  booktitle={IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM)},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2405.01251},
+  selected={false}
+}
+
+@inproceedings{pourshahrokhi2024,
+  abbr={ACML},
+  title={Folded Hamiltonian Monte Carlo for Bayesian Generative Adversarial Networks},
+  author={Pourshahrokhi, Narges and Li, Yunpeng and Kouchaki, Samaneh and Barnaghi, Payam},
+  booktitle={Asian Conference on Machine Learning (ACML)},
+  pages={1103--1118},
+  year={2024},
+  abstract={Probabilistic modelling on Generative Adversarial Networks (GANs) within the Bayesian framework has shown success in estimating the complex distribution in literature. In this paper, we develop a Bayesian formulation for unsupervised and semi-supervised GAN learning. Specifically, we propose Folded Hamiltonian Monte Carlo (F-HMC) methods within this framework to learn the distributions over the parameters of the generators and discriminators. We show that the F-HMC efficiently approximates multi-modal and high dimensional data when combined with Bayesian GANs. Its composition improves run time and test error in generating diverse samples. Experimental results with high-dimensional synthetic multi-modal data and natural image benchmarks, including CIFAR-10, SVHN and ImageNet, show that F-HMC outperforms the state-of-the-art methods in terms of test error, run times per epoch, inception score and Frechet Inception Distance scores.},
+  html={https://proceedings.mlr.press/v222/pourshahrokhi24a.html},
+  selected={false}
+}
+
+@article{chen2023,
+  abbr={FoDS},
+  title={An overview of differentiable particle filters for data-adaptive sequential Bayesian inference},
+  author={Chen, Xiongjie and Li, Yunpeng},
+  journal={Foundations of Data Science},
+  year={2023},
+  abstract={By approximating posterior distributions with weighted samples, particle filters (PFs) provide an efficient mechanism for solving non-linear sequential state estimation problems. While the effectiveness of particle filters has been recognised in various applications, their performance relies on the knowledge of dynamic models and measurement models, as well as the construction of effective proposal distributions. An emerging trend involves constructing components of particle filters using neural networks and optimising them by gradient descent, and such data-adaptive particle filtering approaches are often called differentiable particle filters. Due to the expressiveness of neural networks, differentiable particle filters are a promising computational tool for performing inference on sequential data in complex, high-dimensional tasks, such as vision-based robot localisation. In this paper, we review recent advances in differentiable particle filters and their applications. We place special emphasis on different design choices for key components of differentiable particle filters, including dynamic models, measurement models, proposal distributions, optimisation objectives, and differentiable resampling techniques.},
+  html={https://www.aimsciences.org/article/doi/10.3934/fods.2023014?viewType=HTML},
+  pdf={https://arxiv.org/pdf/2302.09639},
+  selected={true}
+}
+
+@inproceedings{li2023,
+  abbr={Asilomar},
+  title={Learning Differentiable Particle Filter on the Fly},
+  author={Li, Jiaxi and Chen, Xiongjie and Li, Yunpeng},
+  booktitle={Asilomar Conference on Signals, Systems, and Computers},
+  year={2023},
+  abstract={Differentiable particle filters are an emerging class of sequential Bayesian inference techniques that use neural networks to construct components in state space models. Existing approaches are mostly based on offline supervised training strategies. This leads to the delay of the model deployment and the obtained filters are susceptible to distribution shift of test-time data. In this paper, we propose an online learning framework for differentiable particle filters so that model parameters can be updated as data arrive. The technical constraint is that there is no known ground truth state information in the online inference setting. We address this by adopting an unsupervised loss to construct the online model updating procedure, which involves a sequence of filtering operations for online maximum likelihood-based parameter estimation. We empirically evaluate the effectiveness of the proposed method, and compare it with supervised learning methods in simulation settings including a multivariate linear Gaussian state-space model and a simulated object tracking experiment.},
+  html={https://ieeexplore.ieee.org/abstract/document/10476913},
+  pdf={https://arxiv.org/pdf/2312.05955},
+  selected={false}
+}
+
+@inproceedings{parthipan2023,
+  abbr={ICICS},
+  title={DRoT: A Decentralised Root of Trust for Trusted Networks},
+  author={Parthipan, Loganathan and Chen, Liqun and Newton, Christopher JP and Li, Yunpeng and Liu, Fei and Wang, Donghui},
+  booktitle={International Conference on Information and Communications Security (ICICS)},
+  pages={683--701},
+  year={2023},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-91908-6_39},
+  selected={false}
+}
+
+@inproceedings{comandur2023,
+  abbr={ICASSP},
+  title={Particle flow Gaussian sum particle filter},
+  author={Comandur, Karthik and Li, Yunpeng and Nannuru, Santosh},
+  booktitle=ICASSP,
+  abstract={The particle flow Gaussian particle filter (PFGPF) uses an invertible particle flow to generate a proposal density. It approximates the predictive and posterior distributions as Gaussian densities. In this paper, we use a bank of PFGPF filters to construct a Particle flow Gaussian sum particle filter (PFGSPF), which approximates the prediction and posterior as Gaussian mixture model. This approximation is useful in complex estimation problems where a single Gaussian approximation is inadequate. We compare the performance of this proposed filter with the PFGPF and others in challenging numerical simulations.},
+  year={2023},
+  html={https://ieeexplore.ieee.org/abstract/document/10095327},
+  pdf={https://arxiv.org/pdf/2211.05104},
+  selected={false}
+}
+
+@inproceedings{chen2023b,
+  abbr={ICASSP},
+  title={Batch-Ensemble Stochastic Neural Networks for Out-of-Distribution Detection},
+  author={Chen, Xiongjie and Li, Yunpeng and Yang, Yongxin},
+  booktitle=ICASSP,
+  abstract={Out-of-distribution (OOD) detection has recently received much attention from the machine learning community because it is important for deploying machine learning models in real-world applications. In this paper we propose an uncertainty quantification approach by modeling data distributions in feature spaces. We further incorporate an efficient ensemble mechanism, namely batch-ensemble, to construct the batch-ensemble stochastic neural networks (BE-SNNs) and overcome the feature collapse problem. We compare the performance of the proposed BE-SNNs with the other state-of-the-art approaches and show that BE-SNNs yield superior performance on several OOD detection benchmarks, such as the Two-Moons dataset, the FashionMNIST vs MNIST dataset, Fashion-MNIST vs NotMNIST dataset, and the CIFAR10 vs SVHN dataset.},
+  html={https://ieeexplore.ieee.org/document/10095503},
+  pdf={https://arxiv.org/pdf/2206.12911},
+  year={2023},
+  selected={false}
+}
+
+@inproceedings{li2023b,
+  abbr={SSP},
+  title={Differentiable bootstrap particle filters for regime-switching models},
+  author={Li, Wenhan and Chen, Xiongjie and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
+  booktitle={IEEE Statistical Signal Processing Workshop (SSP)},
+  abstract={Differentiable particle filters are an emerging class of particle filtering methods that use neural networks to construct and learn parametric state-space models. In real-world applications, both the state dynamics and measurements can switch between a set of candidate models. For instance, in target tracking, vehicles can idle, move through traffic, or cruise on motorways, and measurements are collected in different geographical or weather conditions. This paper proposes a new differentiable particle filter for regime-switching state-space models. The method can learn a set of unknown candidate dynamic and measurement models and track the state posteriors. We evaluate the performance of the novel algorithm in relevant models, showing its great performance compared to other competitive algorithms.},
+  year={2023},
+  html={https://ieeexplore.ieee.org/abstract/document/10208002},
+  pdf={https://arxiv.org/pdf/2302.10319},
+  selected={false}
+}
+
 @inproceedings{Chen2022,
   abbr={ICLR},
   title={Augmented sliced Wasserstein distances},
@@ -48,6 +187,7 @@
   slides={https://iclr.cc/virtual/2022/poster/6818},
   selected={true}
 }
+
 
 @inproceedings{Papagiannis2022,
   abbr={ECML},
@@ -63,6 +203,41 @@
   selected={true}
 }
 
+@inproceedings{chen2022b,
+  abbr={EUSIPCO},
+  title={Conditional measurement density estimation in sequential Monte Carlo via normalizing flow},
+  author={Chen, Xiongjie and Li, Yunpeng},
+  booktitle=EUSIPCO,
+  abstract={Tuning of measurement models is challenging in real-world applications of sequential Monte Carlo methods. Re-cent advances in differentiable particle filters have led to various efforts to learn measurement models through neural networks. But existing approaches in the differentiable particle filter frame-work do not admit valid probability densities in constructing measurement models, leading to incorrect quantification of the measurement uncertainty given state information. We propose to learn expressive and valid probability densities in measurement models through conditional normalizing flows, to capture the complex likelihood of measurements given states. We show that the proposed approach leads to improved estimation performance and faster training convergence in a visual tracking experiment.},
+  year={2022},
+  html={https://ieeexplore.ieee.org/abstract/document/9909886},
+  pdf={https://arxiv.org/pdf/2203.08617},
+  selected={false}
+}
+
+@inproceedings{comandur2022,
+  abbr={FUSION},
+  title={Particle flow Gaussian particle filter},
+  author={Comandur, Karthik and Li, Yunpeng and Nannuru, Santosh},
+  booktitle=FUSION,
+  abstract={State estimation in non-linear models is performed by tracking the posterior distribution recursively. A plethora of algorithms have been proposed for this task. Among them, the Gaussian particle filter uses a weighted set of particles to construct a Gaussian approximation to the posterior. In this paper, we propose to use invertible particle flow methods, derived under the Gaussian boundary conditions for a flow equation, to generate a proposal distribution close to the posterior. The resultant particle flow Gaussian particle filter (PFGPF) algorithm retains the asymptotic properties of Gaussian particle filters, with the potential for improved state estimation performance in high-dimensional spaces. We compare the performance of PFGPF with the particle flow filters and particle flow particle filters in two challenging numerical simulation examples.},
+  year={2022},
+  html={https://ieeexplore.ieee.org/abstract/document/9841354},
+  pdf={https://arxiv.org/pdf/2207.01308},
+  selected={false}
+}
+
+@inproceedings{hu2022,
+  abbr={BMVC},
+  title={Towards unsupervised sketch-based image retrieval},
+  author={Hu, Conghui and Yang, Yongxin and Li, Yunpeng and Hospedales, Timothy M and Song, Yi-Zhe},
+  booktitle={British Machine Vision Conference (BMVC)},
+  abstract={The practical value of existing supervised sketch-based image retrieval (SBIR) algorithms is largely limited by the requirement for intensive data collection and labeling. In this paper, we present the first attempt at unsupervised SBIR to remove the labeling cost (both category annotations and sketch-photo pairings) that is conventionally needed for training. Existing single-domain unsupervised representation learning methods perform poorly in this application, due to the unique cross-domain (sketch and photo) nature of the problem. We therefore introduce a novel framework that simultaneously performs sketch-photo domain alignment and semantic-aware representation learning. Technically this is underpinned by introducing joint distribution optimal transport (JDOT) to align data from different domains, which we extend with trainable cluster prototypes and feature memory banks to further improve scalability and efficacy. Extensive experiments show that our framework achieves excellent performance in the new unsupervised setting, and performs comparably or better than state-of-the-art in the zero-shot setting.},
+  year={2022},
+  pdf={https://arxiv.org/pdf/2105.08237},
+  selected={false}
+}
+
 @inproceedings{Kiskin2021,
   abbr={NeurIPS},
   title={HumBugDB: A Large-scale Acoustic Mosquito Dataset},
@@ -74,6 +249,67 @@
   html={https://humbug.ox.ac.uk/article/neurips},
   pdf={https://arxiv.org/pdf/2110.07607},
   selected={true}
+}
+
+@inproceedings{parthipan2021,
+  abbr={Globecom},
+  title={A survey of technologies for building trusted networks},
+  author={Parthipan, Loganathan and Chen, Liqun and G{\'e}rault, David and Li, Yunpeng and Liu, Fei and Newton, Christopher JP and Wang, Donghui},
+  booktitle={IEEE Globecom Workshops (GC Wkshps)},
+  abstract={In the current generation of networks, there has been a strong focus on security and integrity. In sixth-generation (6G) networks trust will also be an important requirement, but how do we build trust in a network? Many researchers have started to pay attention to this, but research in this field is still at an early stage. Taking our lead from the development of trusted computing for single devices we require a root of trust and a mechanism for reliably measuring and reporting on the state of the network. In this paper, we survey existing technologies that we feel can be used to achieve this. We explore trusted computing technologies that enable a single device to be trusted and suggest how they can be adapted to help build a trusted network. For reporting, we need a mechanism to immutably store measurements on the system. We consider that distributed ledger technologies could fulfil this role as they offer immutability, decentralised consensus, and transparency.},
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9681964},
+  selected={false}
+}
+
+@inproceedings{chen2021,
+  abbr={FUSION},
+  title={Differentiable particle filters through conditional normalizing flow},
+  author={Chen, Xiongjie and Wen, Hao and Li, Yunpeng},
+  booktitle=FUSION,
+  abstract={Differentiable particle filters provide a flexible mechanism to adaptively train dynamic and measurement models by learning from observed data. However, most existing differentiable particle filters are within the bootstrap particle filtering framework and fail to incorporate the information from latest observations to construct better proposals. In this paper, we utilize conditional normalizing flows to construct proposal distributions for differentiable particle filters, enriching the distribution families that the proposal distributions can represent. In addition, normalizing flows are incorporated in the construction of the dynamic model, resulting in a more expressive dynamic model. We demonstrate the performance of the proposed conditional normalizing flow-based differentiable particle filters in a visual tracking task.},
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9626998},
+  pdf={https://arxiv.org/pdf/2107.00488},
+  selected={false}
+}
+
+@article{sinka2021,
+  abbr={MEE},
+  title={HumBug--an acoustic mosquito monitoring tool for use on budget smartphones},
+  author={Sinka, Marianne E and Zilli, Davide and Li, Yunpeng and Kiskin, Ivan and Msaky, Dickson and Kihonda, Japhet and Mkandawile, Gustav and Kaindoa, Emmanuel and Killeen, Gerry and Zanga, Josue and others},
+  journal={Methods in ecology and evolution},
+  abstract={1. Mosquito surveys are time-consuming, expensive and can provide a biased spatial sample of occurrence data—the data often representing the location of the surveys, not the occurrence of the mosquitoes. 2. We present the HumBug project, an acoustic system that can turn any Android smartphone into a mosquito sensor. Our sensor has the potential to significantly increase the quantity of mosquito occurrence data as well as access locations that are more difficult to survey by traditional means. 3. We describe our database of wild-captured mosquito fight tone audio data and outline our mosquito detection algorithms that these data train. We also present our MozzWear App, designed to work on budget smartphones, which, together with our HumBug Net (an adapted traditional bednet), facilitates data collection and allows the user to record and directly upload mosquito flight tones from any dwelling with a bednet in the field. 4. Our HumBug system has the potential to vastly increase our understanding of the distribution of mosquito species in space and time and greatly improve surveys needed to assess the success or failure of ongoing vector control measures. At a time when the WHO reports a plateauing in the decade-long decline in malaria mortality rates, this new technological solution for surveying mosquito vectors will provide a timely new resource.},
+  volume={12},
+  number={10},
+  pages={1848--1859},
+  year={2021},
+  html={https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13663},
+  selected={false}
+}
+
+@inproceedings{zheng2020,
+  abbr={ICAIF},
+  title={Index tracking with differentiable asset selection},
+  author={Zheng, Yu and Li, Yunpeng and Xu, Qiuhua and Hospedales, Timothy and Yang, Yongxin},
+  booktitle={ACM International Conference on AI in Finance},
+  abstract={Partial index tracking aims to replicate the performance of a given benchmark index with a small number of its constituents. It can be formulated as a sparse regression problem, but remains challenging due to several practical constraints, especially the fixed number of assets in the portfolio. In this paper, we propose a differentiable relaxation for asset selection, such that we can construct a portfolio with exactly 𝐾 assets, where the objective function can be optimised efficiently via vanilla gradient descent. Our method is backtested with S&P 500 index data from 2002 to 2020. Empirical results demonstrate that our model achieves excellent tracking performance compared with some widely used approaches.},
+  html={https://dl.acm.org/doi/pdf/10.1145/3383455.3422516},
+  year={2020},
+  selected={false}
+}
+
+@article{kiskin2020,
+  abbr={NCA},
+  title={Bioacoustic detection with wavelet-conditioned convolutional neural networks},
+  author={Kiskin, Ivan and Zilli, Davide and Li, Yunpeng and Sinka, Marianne and Willis, Kathy and Roberts, Stephen},
+  journal={Neural Computing and Applications},
+  abstract={Many real-world time series analysis problems are characterized by low signal-to-noise ratios and compounded by scarce data. Solutions to these types of problems often rely on handcrafted features extracted in the time or frequency domain. Recent high-profile advances in deep learning have improved performance across many application domains; however, they typically rely on large data sets that may not always be available. This paper presents an application of deep learning for acoustic event detection in a challenging, data-scarce, real-world problem. We show that convolutional neural networks (CNNs), operating on wavelet transformations of audio recordings, demonstrate superior performance over conventional classifiers that utilize handcrafted features. Our key result is that wavelet transformations offer a clear benefit over the more commonly used short-time Fourier transform. Furthermore, we show that features, handcrafted for a particular dataset, do not generalize well to other datasets. Conversely, CNNs trained on generic features are able to achieve comparable results across multiple datasets, along with outperforming human labellers. We present our results on the application of both detecting the presence of mosquitoes and the classification of bird species.},
+  volume={32},
+  pages={915--927},
+  year={2020},
+  html={https://link.springer.com/article/10.1007/s00521-018-3626-7},
+  selected={false}
 }
 
 @article{Li2019,
@@ -88,6 +324,31 @@
   selected={true}
 }
 
+@inproceedings{Isupova2018,
+  abbr={ML4D},
+  title={BCCNet: Bayesian classifier combination neural network},
+  author={Isupova, Olga and Li, Yunpeng and Kuzin, Danil and Roberts, Stephen J and Willis, Katherine and Reece, Steven},
+  booktitle={NeurIPS Workshop on Machine Learning for the Developing World (ML4D)},
+  abstract={Machine learning research for developing countries can demonstrate clear sustainable impact by delivering actionable and timely information to in-country government organisations (GOs) and NGOs in response to their critical information requirements. We co-create products with UK and in-country commercial, GO and NGO partners to ensure the machine learning algorithms address appropriate user needs whether for tactical decision making or evidence-based policy decisions. In one particular case, we developed and deployed a novel algorithm, BCCNet, to quickly process large quantities of unstructured data to prevent and respond to natural disasters. Crowdsourcing provides an efficient mechanism to generate labels from unstructured data to prime machine learning algorithms for large scale data analysis. However, these labels are often imperfect with qualities varying among different citizen scientists, which prohibits their direct use with many state-of-the-art machine learning techniques. We describe BCCNet, a framework that simultaneously aggregates biased and contradictory labels from the crowd and trains an automatic classifier to process new data. Our case studies, mosquito sound detection for malaria prevention and damage detection for disaster response, show the efficacy of our method in the challenging context of developing world applications.},
+  code={https://github.com/OlgaIsupova/BCCNet},
+  pdf={https://arxiv.org/pdf/1811.12258},
+  year={2018},
+  selected={false}
+}
+
+@inproceedings{Li2018,
+  abbr={DCASE},
+  title={Fast mosquito acoustic detection with field cup recordings: an initial investigation.},
+  author={Li, Yunpeng and Kiskin, Ivan and Sinka, Marianne and Zilli, Davide and Chan, Henry and Herreros-Moya, Eva and Chareonviriyaphap, Theeraphap and Tisgratog, Rungarun and Willis, Kathy and Roberts, Stephen J},
+  booktitle={Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE)},
+  pages={153--157},
+  abstract={In terms of vectoring disease, mosquitoes are the world’s deadliest. A fast and efficient mosquito survey tool is crucial for vectored disease intervention programmes to reduce mosquito-induced deaths. Standard mosquito sampling techniques, such as human landing catches, are time consuming, expensive and can put the collectors at risk of diseases. Mosquito acoustic detection aims to provide a cost-effective automated detection tool, based on mosquitoes’ characteristic flight tones. We propose a simple, yet highly effective, classification pipeline based on the mel-frequency spectrum allied with convolutional neural networks. This detection pipeline is computationally efficient in not only detecting mosquitoes, but also in classifying species. Many previous assessments of mosquito acoustic detection techniques have relied only upon lab recordings of mosquito colonies. We illustrate in this paper our proposed algorithm’s performance over an extensive dataset, consisting of cup recordings of more than 1000 mosquito individuals from 6 species captured in field studies in Thailand.},
+  pdf={https://dcase.community/documents/workshop2018/proceedings/DCASE2018Workshop_Li_136.pdf},
+  year={2018},
+  selected={false}
+}
+
+
 @article{Li2017b,
   abbr={BSPC},
 	title={Microwave breast cancer detection via cost-sensitive ensemble classifiers: Phantom and patient investigation},
@@ -100,7 +361,7 @@
   selected={true}
 }
 
-@article{Li2017,
+@article{Li2017a,
   abbr={TSP},
 	title={Particle filtering with invertible particle flow},
 	author={Li, Yunpeng and Coates, Mark},
@@ -110,4 +371,64 @@
   html={https://ieeexplore.ieee.org/document/7926458},
   pdf={https://arxiv.org/pdf/1607.08799},
   selected={true}
+}
+
+
+@inproceedings{Li2017c,
+  abbr={ML4Audio},
+  title={Cost-sensitive detection with variational autoencoders for environmental acoustic sensing},
+  author={Li, Yunpeng and Kiskin, Ivan and Zilli, Davide and Sinka, Marianne and Chan, Henry and Willis, Kathy and Roberts, Stephen},
+  booktitle={NeurIPS Workshop on Machine Learning for Audio Signal Processing (ML4Audio)},
+  abstract={Environmental acoustic sensing involves the retrieval and processing of audio signals to better understand our surroundings. While large-scale acoustic data make manual analysis infeasible, they provide a suitable playground for machine learning approaches. Most existing machine learning techniques developed for environmental acoustic sensing do not provide flexible control of the trade-off between the false positive rate and the false negative rate. This paper presents a cost-sensitive classification paradigm, in which the hyper-parameters of classifiers and the structure of variational autoencoders are selected in a principled Neyman-Pearson framework. We examine the performance of the proposed approach using a dataset from the HumBug project which aims to detect the presence of mosquitoes using sound collected by simple embedded devices.},
+  year={2017},
+  pdf={https://arxiv.org/pdf/1712.02488},
+  selected={false}
+}
+
+@inproceedings{li2017d,
+  abbr={ML4D},
+  title={Mosquito detection with low-cost smartphones: data acquisition for malaria research},
+  author={Li, Yunpeng and Zilli, Davide and Chan, Henry and Kiskin, Ivan and Sinka, Marianne and Roberts, Stephen and Willis, Kathy},
+  booktitle={NeurIPS Workshop on Machine Learning for the Developing World (ML4D)},
+  abstract={Mosquitoes are the only vector for malaria, causing hundreds of thousands of deaths in the developing world each year. Not only is the prevention of mosquito bites of paramount importance to the reduction of malaria transmission cases, but understanding in more forensic detail the interplay between malaria, mosquito vectors, vegetation, standing water and human populations is crucial to the deployment of more effective interventions. Typically the presence and detection of mosquitoes is quantified through insect traps and human operations. If we are to gather timely, large-scale data to improve this situation, we need to automate the process of mosquito detection and classification as much as possible. In this paper, we present a prototype mobile sensing system that acts as both a portable early warning device and an automatic acoustic data acquisition pipeline to help fuel scientific inquiry and policy. The machine learning algorithm that powers the mobile system achieves excellent off-line multi-species detection performance while remaining computationally efficient. Further, we have conducted preliminary live mosquito detection tests using low-cost mobile phones and achieved promising results. The deployment of this system for field usage in Southeast Asia and Africa is planned in the near future. In order to accelerate processing of field recordings and labelling of collected data, we employ a citizen science platform in conjunction with automated methods, the former implemented using the Zooniverse platform, allowing crowdsourcing on a grand scale.},
+  year={2017},
+  pdf={https://arxiv.org/pdf/1711.06346},
+  selected={false}
+}
+
+@inproceedings{saucan2017,
+  abbr={SPIE},
+  title={Particle flow superpositional GLMB filter},
+  author={Saucan, Augustin-Alexandru and Li, Yunpeng and Coates, Mark},
+  booktitle={SPIE Conference on Signal Processing, Sensor/Information Fusion, and Target Recognition},
+  year={2017},
+  abstract={In this paper we propose a Superpositional Marginalized δ-GLMB (SMδ-GLMB) filter for multi-target tracking and we provide bootstrap and particle flow particle filter implementations. Particle filter implementations of the marginalized δ-GLMB filter are computationally demanding. As a first contribution we show that for the specific case of superpositional observation models, a reduced complexity update step can be achieved by employing a superpositional change of variables. The resulting SMδ-GLMB filter can be readily implemented using the unscented Kalman filter or particle filtering methods. As a second contribution, we employ particle flow to produce a measurement-driven importance distribution that serves as a proposal in the SMδ-GLMB particle filter. In high-dimensional state systems or for highly- informative observations the generic particle filter often suffers from weight degeneracy or otherwise requires a prohibitively large number of particles. Particle flow avoids particle weight degeneracy by guiding particles to regions where the posterior is significant. Numerical simulations showcase the reduced complexity and improved performance of the bootstrap SMδ-GLMB filter with respect to the bootstrap Mδ-GLMB filter. The particle flow SMδ-GLMB filter further improves the accuracy of track estimates for highly informative measurements.},
+  html={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10200/102000F/Particle-flow-superpositional-GLMB-filter/10.1117/12.2263236.short},
+  pdf={http://networks.ece.mcgill.ca/sites/default/files/particle-flow-superpositional_final.pdf},
+  selected={false}
+}
+
+@inproceedings{saucan2017b,
+  abbr={ICASSP},
+  title={Particle flow SMC delta-GLMB filter},
+  author={Saucan, Augustin-Alexandru and Li, Yunpeng and Coates, Mark},
+  booktitle=ICASSP,
+  abstract={In this paper we derive a particle flow particle filter implementation of the δ-Generalized Labeled Multi-Bernoulli (δ-GLMB) filter. The bootstrap particle filter δ-GLMB suffers from weight degeneracy for high-dimensional state systems or low measurement noise. In order to avoid weight degeneracy, we employ particle flow to produce a measurement-driven importance distribution that serves as a proposal in the δ-GLMB particle filter. Flow-induced proposals are developed for both types of targets encountered in the δ-GLMB filter, i.e., persistent and birth targets. Numerical simulations reflect the improved performance of the proposed filter with respect to classical bootstrap implementations.},
+  html={https://ieeexplore.ieee.org/abstract/document/7952984},
+  pdf={http://networks.ece.mcgill.ca/sites/default/files/pfpf_GLMB_final.pdf},
+  year={2017},
+  selected={false}
+}
+
+
+@inproceedings{li2017e,
+  abbr={ICASSP},
+  title={Sequential MCMC with invertible particle flow},
+  author={Li, Yunpeng and Coates, Mark},
+  booktitle=ICASSP,
+  abstract={Particle filters are among the most effective filtering algorithms for nonlinear and non-Gaussian models. When the state dimension is high, they are known to suffer from weight degeneracy. Sequential Markov chain Monte Carlo (SMCMC) methods have been proposed as an alternative sequential inference technique that can perform better in high dimensional state spaces. In this paper, we propose to construct a composite Metropolis-Hastings (MH) kernel within the SMCMC framework using invertible particle flow. Simulation results show that the proposed kernel significantly increases the acceptance rate and improves estimation accuracy compared with state-of-the-art filtering algorithms, in high dimensional simulation examples.},
+  year={2017},
+  html={https://ieeexplore.ieee.org/abstract/document/7952876},
+  pdf={http://132.206.31.57/sites/default/files/SMCMC_invertible_particle_flow.pdf},
+  selected={false}
 }
