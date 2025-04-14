@@ -9,9 +9,9 @@ nav_order: 4
 
 #### Faculty and Research Fellow openings:
 
-Our AI unit in the Faculty of Dentistry, Oral & Craniofacial Sciences at King's College London is quickly expanding. We will soon advertise faculty and research fellow positions. Please contact me if you are interested in joining the unit.
+King’s College London has launched an [AI+ Academic Fellowship](https://www.kcl.ac.uk/jobs/role/kings-ai-academic-fellowships) scheme to recruit 20 outstanding AI researchers. These positions offer five years of protected research time and are designed to lead to permanent academic appointments.
 
-
+Please let me know if you believe there is a strong fit and you are interested in working at King’s, particularly in the Faculty of Dentistry, Oral & Craniofacial Sciences.
 
 #### Funding opportunities for PhD applicants:
 
