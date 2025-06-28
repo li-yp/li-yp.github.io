@@ -103,7 +103,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-presented-becertain-in-innovation-showcase-at-bia-life-science-leadership-summit",
           title: 'I presented BeCertain in Innovation Showcase at BIA Life Science Leadership Summit.',
           description: "",
-          section: "News",},{id: "news-the-latest-edition-of-riskwise-shared-the-panel-discussion-on-the-future-of-ai-in-dentistry-i-joined-with-raj-rattan-mbe-dental-director-dental-protection-sonia-szamocki-ceo-32co-and-loven-ganeswaran-ceo-chairsyde",
+          section: "News",},{id: "news-the-latest-edition-of-riskwise-shared-the-panel-discussion-on-the-future-of-ai-in-dentistry-i-joined-with-raj-rattan-mbe-sonia-szamocki-and-loven-ganeswaran",
           title: 'The latest edition of Riskwise shared the panel discussion on the future of...',
           description: "",
           section: "News",},{id: "projects-project-1",
