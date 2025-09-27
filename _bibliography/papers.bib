@@ -13,6 +13,30 @@
 @String{EUSIPCO={European Signal Processing Conference (EUSIPCO)}}
 @String{ICRA={International Conference on Robotics and Automation (ICRA)}}
 
+@inproceedings{Tan2025a,
+  abbr={MICCAI ODIN},
+  title={U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT},
+  author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
+  abstract={Cone-Beam Computed Tomography (CBCT) is a widely used 3D imaging technique in dentistry, providing volumetric information about the anatomical structures of jaws and teeth. Accurate segmentation of these anatomies is critical for clinical applications such as diagnosis and surgical planning, but remains time-consuming and challenging. In this paper, we present U-Mamba2, a new neural network architecture designed for multi-anatomy CBCT segmentation in the context of the ToothFairy3 challenge. U-Mamba2 integrates the Mamba2 state space models into the U-Net architecture, enforcing stronger structural constraints for higher efficiency without compromising performance. In addition, we integrate interactive click prompts with cross-attention blocks, pre-train U-Mamba2 using self-supervised learning, and incorporate dental domain knowledge into the model design to address key challenges of dental anatomy segmentation in CBCT. Extensive experiments, including independent tests, demonstrate that U-Mamba2 is both effective and efficient, securing top 3 places in both tasks of the Toothfairy3 challenge. In Task 1, U-Mamba2 achieved a mean Dice of 0.792, HD95 of 93.19 with the held-out test data, with an average inference time of XX (TBC during the ODIN workshop). In Task 2, U-Mamba2 achieved the mean Dice of 0.852 and HD95 of 7.39 with the held-out test data. The code is publicly available at https://github.com/zhiqin1998/UMamba2},
+  booktitle=MICCAI Oral and Dental Image aNalysis (ODIN) Workshop,
+  year=2025,
+  code={https://github.com/zhiqin1998/UMamba},
+  pdf={https://arxiv.org/pdf/2509.12069},
+  selected={true}
+}
+
+@inproceedings{Tan2025b,
+  abbr={MICCAI ODIN},
+  title={U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT},
+  author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
+  abstract={Accurate segmentation of teeth and pulp in Cone-Beam Computed Tomography (CBCT) is vital for clinical applications like treatment planning and diagnosis. However, this process requires extensive expertise and is exceptionally time-consuming, highlighting the critical need for automated algorithms that can effectively utilize unlabeled data. In this paper, we propose U-Mamba2-SSL, a novel semi-supervised learning framework that builds on the U-Mamba2 model and employs a multi-stage training strategy. The framework first pre-trains U-Mamba2 in a self-supervised manner using a disruptive autoencoder. It then leverages unlabeled data through consistency regularization, where we introduce input and feature perturbations to ensure stable model outputs. Finally, a pseudo-labeling strategy is implemented with a reduced loss weighting to minimize the impact of potential errors. U-Mamba2-SSL achieved an average score of 0.872 and a DSC of 0.969 on the validation dataset, demonstrating the superior performance of our approach. The code is available at https://github.com/zhiqin1998/UMamba2.},
+  booktitle=MICCAI Oral and Dental Image aNalysis (ODIN) Workshop,
+  year=2025,
+  code={https://github.com/zhiqin1998/UMamba},
+  pdf={https://arxiv.org/pdf/2509.20154},
+  selected={true}
+}
+
 @article{Thengane2025,
   abbr={arXiv},
   title={Foundational Models for 3D Point Clouds: A Survey and Outlook},
@@ -35,6 +59,39 @@
   abstract={We propose a sequential Monte Carlo algorithm for parameter learning when the studied model exhibits random discontinuous jumps in behaviour. To facilitate the learning of high dimensional parameter sets, such as those associated to neural networks, we adopt the emerging framework of differentiable particle filtering, wherein parameters are trained by gradient descent. We design a new differentiable interacting multiple model particle filter to be capable of learning the individual behavioural regimes and the model which controls the jumping simultaneously. In contrast to previous approaches, our algorithm allows control of the computational effort assigned per regime whilst using the probability of being in a given regime to guide sampling. Furthermore, we develop a new gradient estimator that has a lower variance than established approaches and remains fast to compute, for which we prove consistency. We establish new theoretical results of the presented algorithms and demonstrate superior numerical performance compared to the previous state-of-the-art algorithms.},
   code={https://github.com/John-JoB/DIMMPF},
   selected={true}
+}
+
+
+
+@article{Storer2025,
+  abbr={PO},
+  title={Do monetary incentives encourage local communities to collect and upload mosquito sound data using smartphones? A case study in the Democratic Republic of the Congo},
+  author={Storer, Kieran and Messina, Jane and Herreros-Moya, Eva and Metelo, Emery and Zanga, Josué and Mvuama, Nono and Muzinga, Soleil and Dam, Rinita and Sinka, Marianne and Kiskin, Ivan and Everett, Josh and Li, Yunpeng and Roberts, Stephen and Willis, Katherine},
+  journal={PLoS One},
+  pdf={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314122},
+  year={2025},
+  abstract={Malaria is one of the deadliest vector borne diseases affecting sub-Saharan Africa. A suite of systems are being used to monitor and manage malaria risk and disease incidence, with an increasing focus on technological interventions that allow private citizens to remotely record and upload data. However, data collected by citizen scientists must be standardised and consistent if it is to be used for scientific analysis. Studies that aim to improve data collection quality and quantity have often included incentivisation, providing citizen scientists with monetary or other benefits for their participation in data collection. We tested whether monetary incentives enhance participation and data collection in a study trialling an acoustic mosquito sensor. Working with the community in two health areas in the Democratic Republic of Congo, we measured data collection participation, completeness, and community responses. Our results showed mixed responses to the incentive, with more participants interested in the social status and monetary value of the technology used than the monetary incentive itself. The effect of incentives on data collection varied over the course of the trial, increasing participation in the start of the trial but with no effect in the latter half of the trial. Feedback from participants showed that opinions on technology, research objectives, and incentives varied between communities, and was associated with differences in data collection quantity and quality, suggesting that differences in community interest in data collection and the incentives may be more important than the incentive value itself. These results suggest that though there is an initial benefit, extrinsic motivations do not override differences in intrinsic motivations over time, and enhanced communication and dialogue with participants may improve citizen science participation and attitudes.},
+  selected={false}
+}
+
+@article{Romero2025,
+  abbr={DM},
+  title={Predicting restoration failures in primary and permanent teeth – A machine learning approach},
+  author={Vitor Henrique Digmayer Romero and Eduardo Trota Chaves and Shankeeth Vinayahalingam and Helena Silveira Schuch and Xiongjie Chen and Yunpeng Li and Falk Schwendicke and Mariana Minatel Braga and Daniela Prócida Raggio and Cácia Signori and Raiza Dias Freitas and Fausto Medeiros Mendes and Marie-Charlotte Huysmans and Maximiliano Sérgio Cenci},
+  journal={Dental Materials},
+  pdf={https://www.sciencedirect.com/science/article/pii/S0109564125007663},
+  year={2025},
+  selected={false}
+}
+
+@article{He2025,
+  abbr={DM},
+  title={An optical model for evaluating the influence of microstructures on zirconia translucency},
+  author={He, Linfeng and Li, Qijing and Chen, Du and Wang, Yiyi and Shen, Junfei and Liu, Weicai and Li, Yunpeng and Liu, Fei and Shen, Jiefei},
+  journal={Dental Materials},
+  pdf={https://www.sciencedirect.com/science/article/pii/S0109564125007171},
+  year={2025},
+  selected={false}
 }
 
 @article{Liang2025,
