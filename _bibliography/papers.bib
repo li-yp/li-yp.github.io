@@ -14,39 +14,27 @@
 @String{ICRA={International Conference on Robotics and Automation (ICRA)}}
 
 @inproceedings{Tan2025a,
-  abbr={MICCAI ODIN},
+  abbr={ODIN},
   title={U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT},
   author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
-  abstract={Cone-Beam Computed Tomography (CBCT) is a widely used 3D imaging technique in dentistry, providing volumetric information about the anatomical structures of jaws and teeth. Accurate segmentation of these anatomies is critical for clinical applications such as diagnosis and surgical planning, but remains time-consuming and challenging. In this paper, we present U-Mamba2, a new neural network architecture designed for multi-anatomy CBCT segmentation in the context of the ToothFairy3 challenge. U-Mamba2 integrates the Mamba2 state space models into the U-Net architecture, enforcing stronger structural constraints for higher efficiency without compromising performance. In addition, we integrate interactive click prompts with cross-attention blocks, pre-train U-Mamba2 using self-supervised learning, and incorporate dental domain knowledge into the model design to address key challenges of dental anatomy segmentation in CBCT. Extensive experiments, including independent tests, demonstrate that U-Mamba2 is both effective and efficient, securing top 3 places in both tasks of the Toothfairy3 challenge. In Task 1, U-Mamba2 achieved a mean Dice of 0.792, HD95 of 93.19 with the held-out test data, with an average inference time of XX (TBC during the ODIN workshop). In Task 2, U-Mamba2 achieved the mean Dice of 0.852 and HD95 of 7.39 with the held-out test data. The code is publicly available at https://github.com/zhiqin1998/UMamba2},
-  booktitle=MICCAI Oral and Dental Image aNalysis (ODIN) Workshop,
-  year=2025,
+  abstract={Cone-Beam Computed Tomography (CBCT) is a widely used 3D imaging technique in dentistry, providing volumetric information about the anatomical structures of jaws and teeth. Accurate segmentation of these anatomies is critical for clinical applications such as diagnosis and surgical planning, but remains time-consuming and challenging. In this paper, we present U-Mamba2, a new neural network architecture designed for multi-anatomy CBCT segmentation in the context of the ToothFairy3 challenge. U-Mamba2 integrates the Mamba2 state space models into the U-Net architecture, enforcing stronger structural constraints for higher efficiency without compromising performance. In addition, we integrate interactive click prompts with cross-attention blocks, pre-train U-Mamba2 using self-supervised learning, and incorporate dental domain knowledge into the model design to address key challenges of dental anatomy segmentation in CBCT. Extensive experiments, including independent tests, demonstrate that U-Mamba2 is both effective and efficient, securing top 3 places in both tasks of the Toothfairy3 challenge. In Task 1, U-Mamba2 achieved a mean Dice of 0.792, HD95 of 93.19 with the held-out test data, with an average inference time of XX (TBC during the ODIN workshop). In Task 2, U-Mamba2 achieved the mean Dice of 0.852 and HD95 of 7.39 with the held-out test data. The code is publicly available at https://github.com/zhiqin1998/UMamba2.},
+  booktitle={MICCAI Oral and Dental Image aNalysis (ODIN) Workshop},
+  year={2025},
   code={https://github.com/zhiqin1998/UMamba},
   pdf={https://arxiv.org/pdf/2509.12069},
   selected={true}
 }
 
 @inproceedings{Tan2025b,
-  abbr={MICCAI ODIN},
-  title={U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT},
+  abbr={ODIN},
+  title={U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT},
   author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
   abstract={Accurate segmentation of teeth and pulp in Cone-Beam Computed Tomography (CBCT) is vital for clinical applications like treatment planning and diagnosis. However, this process requires extensive expertise and is exceptionally time-consuming, highlighting the critical need for automated algorithms that can effectively utilize unlabeled data. In this paper, we propose U-Mamba2-SSL, a novel semi-supervised learning framework that builds on the U-Mamba2 model and employs a multi-stage training strategy. The framework first pre-trains U-Mamba2 in a self-supervised manner using a disruptive autoencoder. It then leverages unlabeled data through consistency regularization, where we introduce input and feature perturbations to ensure stable model outputs. Finally, a pseudo-labeling strategy is implemented with a reduced loss weighting to minimize the impact of potential errors. U-Mamba2-SSL achieved an average score of 0.872 and a DSC of 0.969 on the validation dataset, demonstrating the superior performance of our approach. The code is available at https://github.com/zhiqin1998/UMamba2.},
-  booktitle=MICCAI Oral and Dental Image aNalysis (ODIN) Workshop,
-  year=2025,
+  booktitle={MICCAI Oral and Dental Image aNalysis (ODIN) Workshop},
+  year={2025},
   code={https://github.com/zhiqin1998/UMamba},
   pdf={https://arxiv.org/pdf/2509.20154},
   selected={true}
-}
-
-@article{Thengane2025,
-  abbr={arXiv},
-  title={Foundational Models for 3D Point Clouds: A Survey and Outlook},
-  author={Thengane, Vishal and Zhu, Xiatian and Bouzerdoum, Salim and Lam Phung, Son and Li, Yunpeng},
-  journal={arXiv preprint arXiv:2501.18594},
-  year={2025},
-  abstract={The 3D point cloud representation plays a crucial role in preserving the geometric fidelity of the physical world, enabling more accurate complex 3D environments. While humans naturally comprehend the intricate relationships between objects and variations through a multisensory system, artificial intelligence (AI) systems have yet to fully replicate this capacity. To bridge this gap, it becomes essential to incorporate multiple modalities. Models that can seamlessly integrate and reason across these modalities are known as foundation models (FMs). The development of FMs for 2D modalities, such as images and text, has seen significant progress, driven by the abundant availability of large-scale datasets. However, the 3D domain has lagged due to the scarcity of labelled data and high computational overheads. In response, recent research has begun to explore the potential of applying FMs to 3D tasks, overcoming these challenges by leveraging existing 2D knowledge. Additionally, language, with its capacity for abstract reasoning and description of the environment, offers a promising avenue for enhancing 3D understanding through large pre-trained language models (LLMs). Despite the rapid development and adoption of FMs for 3D vision tasks in recent years, there remains a gap in comprehensive and in-depth literature reviews. This article aims to address this gap by presenting a comprehensive overview of the state-of-the-art methods that utilize FMs for 3D visual understanding. We start by reviewing various strategies employed in the building of various 3D FMs. Then we categorize and summarize use of different FMs for tasks such as perception tasks. Finally, the article offers insights into future directions for research and development in this field. To help reader, we have curated list of relevant papers on the topic: this https URL.},
-  code={https://github.com/vgthengane/Awesome-FMs-in-3D},
-  pdf={https://arxiv.org/pdf/2501.18594},
-  selected={false}
 }
 
 @article{Brady2025,
@@ -62,6 +50,17 @@
 }
 
 
+@article{Thengane2025,
+  abbr={arXiv},
+  title={Foundational Models for 3D Point Clouds: A Survey and Outlook},
+  author={Thengane, Vishal and Zhu, Xiatian and Bouzerdoum, Salim and Lam Phung, Son and Li, Yunpeng},
+  journal={arXiv preprint arXiv:2501.18594},
+  year={2025},
+  abstract={The 3D point cloud representation plays a crucial role in preserving the geometric fidelity of the physical world, enabling more accurate complex 3D environments. While humans naturally comprehend the intricate relationships between objects and variations through a multisensory system, artificial intelligence (AI) systems have yet to fully replicate this capacity. To bridge this gap, it becomes essential to incorporate multiple modalities. Models that can seamlessly integrate and reason across these modalities are known as foundation models (FMs). The development of FMs for 2D modalities, such as images and text, has seen significant progress, driven by the abundant availability of large-scale datasets. However, the 3D domain has lagged due to the scarcity of labelled data and high computational overheads. In response, recent research has begun to explore the potential of applying FMs to 3D tasks, overcoming these challenges by leveraging existing 2D knowledge. Additionally, language, with its capacity for abstract reasoning and description of the environment, offers a promising avenue for enhancing 3D understanding through large pre-trained language models (LLMs). Despite the rapid development and adoption of FMs for 3D vision tasks in recent years, there remains a gap in comprehensive and in-depth literature reviews. This article aims to address this gap by presenting a comprehensive overview of the state-of-the-art methods that utilize FMs for 3D visual understanding. We start by reviewing various strategies employed in the building of various 3D FMs. Then we categorize and summarize use of different FMs for tasks such as perception tasks. Finally, the article offers insights into future directions for research and development in this field. To help reader, we have curated list of relevant papers on the topic: this https URL.},
+  code={https://github.com/vgthengane/Awesome-FMs-in-3D},
+  pdf={https://arxiv.org/pdf/2501.18594},
+  selected={false}
+}
 
 @article{Storer2025,
   abbr={PO},
