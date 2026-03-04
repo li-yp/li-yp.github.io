@@ -12,15 +12,101 @@
 @String{ICASSP={International Conference on Acoustics, Speech and Signal Processing (ICASSP)}}
 @String{EUSIPCO={European Signal Processing Conference (EUSIPCO)}}
 @String{ICRA={International Conference on Robotics and Automation (ICRA)}}
+@String{ISBI={International Symposium on Biomedical Imaging (ISBI)}}
+
+@inbook{harte2026,
+  abbr={HTRR},
+  title={The Impact of Artificial Intelligence in Dentistry and Oral Medicine: Ethical Issues and Challenges from an Oral Clinical's Perspective},
+  author={Harte, Molly and Feng, Qingmei Joy and Carey, Barbara and Addison, Owen and Tan, Zhi Qin and Li, Yunpeng and Albuquerque, Rui},
+  booktitle={Handbook of Tissue Reconstruction and Regeneration},
+  publisher={Springer Nature Singapore},
+  abstract={Artificial intelligence (AI) is rapidly entering the dental field, with the potential to augment diagnosis and management. This chapter synthesizes current and emerging clinical applications of AI in dentistry and examines the ethical and practical challenges of adoption. Using a narrative review approach from an oral clinician's perspective, we draw on reported uses across multiple dental specialties.},
+  pdf={https://doi.org/10.1007/978-981-96-7448-0_22-1},
+  year={2026},
+  selected={false}
+}
+
+@article{Banks2026,
+  abbr={CBM},
+  title={Periodontal bone loss analysis via keypoint detection with heuristic post-processing},
+  author={Ryan Banks and Vishal Thengane and María Eugenia Guerrero and Nelly Maria García-Madueño and Yunpeng Li and Hongying Tang and Akhilanand Chaurasia},
+  journal={Computers in Biology and Medicine},
+  pdf={https://doi.org/10.1016/j.compbiomed.2026.111515},
+  year={2026},
+  abstract={Objectives: This study proposes a deep learning framework and an annotation methodology for the automatic detection of periodontal bone loss landmarks, associated conditions, and staging. Methods 192 periapical radiographs were collected and annotated using a stage agnostic methodology, labelling clinically relevant landmarks regardless of disease presence or extent. We propose a heuristic post-processing module that aligns predicted keypoints to tooth boundaries using an auxiliary instance segmentation model. An evaluation metric, Percentage of Relative Correct Keypoints (PRCK), is proposed to capture keypoint performance in dental imaging domains. Four donor pose estimation models were adapted with fine-tuning for our keypoint problem. Results Post-processing improved fine-grained localisation, raising average PRCK0.05 by +0.028, but reduced coarse performance for PRCK0.25 by −0.0523 and PRCK0.5 by −0.0345. Orientation estimation shows excellent performance for auxiliary segmentation when filtered with either stage 1 object detection model. Periodontal staging was detected sufficiently, with the best mesial and distal Dice scores of 0.508 and 0.489, while furcation involvement and widened periodontal ligament space tasks remained challenging due to scarce positive samples. Scalability is implied with similar validation and external set performance. Conclusion The annotation methodology enables stage agnostic training with balanced representation across disease severities for some detection tasks. The PRCK metric provides a domain-specific alternative to generic pose metrics, while the heuristic post-processing module consistently corrected implausible predictions with occasional catastrophic failures. Clinical significance: The proposed framework demonstrates the feasibility of clinically interpretable periodontal bone loss assessment, with the potential to reduce diagnostic variability and clinician workload.},
+  code={https://github.com/Banksylel/Bone-Loss-Keypoint-Detection-Code},
+  selected={false}
+}
+
+@inproceedings{Tan2026b,
+  abbr={ISBI},
+  title={DentalX: Context-Aware Dental Disease Detection with Radiographs},
+  author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
+  abstract={Diagnosing dental diseases from radiographs is time-consuming and challenging due to the subtle nature of diagnostic evidence. Existing methods, which rely on object detection models designed for natural images with more distinct target patterns, struggle to detect dental diseases that present with far less visual support. To address this challenge, we propose {\bf DentalX}, a novel context-aware dental disease detection approach that leverages oral structure information to mitigate the visual ambiguity inherent in radiographs. Specifically, we introduce a structural context extraction module that learns an auxiliary task: semantic segmentation of dental anatomy. The module extracts meaningful structural context and integrates it into the primary disease detection task to enhance the detection of subtle dental diseases. Extensive experiments on a dedicated benchmark demonstrate that DentalX significantly outperforms prior methods in both tasks. This mutual benefit arises naturally during model optimization, as the correlation between the two tasks is effectively captured. Our code is available at https://github.com/zhiqin1998/DentYOLOX.},
+  booktitle=ISBI,
+  year={2026},
+  code={https://github.com/zhiqin1998/DentalX},
+  pdf={https://arxiv.org/pdf/2601.08797},
+  selected={true}
+}
+
+
+@article{Brady2026,
+  abbr={SP},
+  title={Differentiable Interacting Multiple Model Particle Filtering},
+  author={Brady, John-Joseph and Luo, Yuhui and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
+  journal={Signal Processing},
+  pdf={https://doi.org/10.1016/j.sigpro.2025.110166},
+  year={2026},
+  abstract={We propose a sequential Monte Carlo algorithm for parameter learning when the studied model exhibits random discontinuous jumps in behaviour. To facilitate the learning of high dimensional parameter sets, such as those associated to neural networks, we adopt the emerging framework of differentiable particle filtering, wherein parameters are trained by gradient descent. We design a new differentiable interacting multiple model particle filter to be capable of learning the individual behavioural regimes and the model which controls the jumping simultaneously. In contrast to previous approaches, our algorithm allows control of the computational effort assigned per regime whilst using the probability of being in a given regime to guide sampling. Furthermore, we develop a new gradient estimator that has a lower variance than established approaches and remains fast to compute, for which we prove consistency. We establish new theoretical results of the presented algorithms and demonstrate superior numerical performance compared to the previous state-of-the-art algorithms.},
+  code={https://github.com/John-JoB/DIMMPF},
+  selected={true}
+}
+
+@article{Tan2026a,
+  abbr={ATR},
+  title={Post-pandemic tourism forecasting with ensemble RNN},
+  author={Tan, Zhi Qin and Li, Yunpeng},
+  journal={Annals of Tourism Research},
+  pdf={https://doi.org/10.1016/j.annals.2025.104099},
+  year={2026},
+  abstract={Tourism forecasting plays a critical role in the tourism industry, enabling strategic planning for diverse stakeholders. However, it is a challenging task influenced by numerous factors. This study investigates the development of automated, data-driven approaches, by introducing an ensemble model that combines two forecasting methods of recurrent neural networks. It integrates COVID-19-related explanatory variables and automatically learns the spatial relationship across destinations. The model outperformed benchmark methods in forecasting China's outbound tourism to twenty destinations before and during COVID-19, using data from 1989 to 2022. Subsequently, our approach achieved 1.4723 mean absolute scaled error and third runner-up for the Point Forecasting Track in Tourism Forecasting Competition amid COVID-19 Round II, for the forecast period between August 2023 and July 2024.},
+  code={https://github.com/zhiqin1998/tourism-forecasting},
+  selected={false}
+}
+
+@article{Tan2025c,
+  abbr={CR},
+  title={Caries detection in primary molars with bitewing radiographs through deep learning based-object detectors},
+  author={Tan, Zhi Qin and Pinho, Ilana Felix and Banks, Ryan and Chen, Xiongjie and Pontes, Laura Regina Antunes and Braga, Mariana Minatel and Mendes, Fausto Medeiros and Li, Yunpeng},
+  journal={Caries Research},
+  pdf={https://doi.org/10.1159/000550079},
+  year={2025},
+  abstract={Introduction: Automated methods for caries detection among children can help triage children with greater need for treatment and assist clinicians in achieving a more accurate diagnosis of caries lesions. Therefore, we aimed to develop artificial intelligence algorithms based on various object detectors for detecting and staging caries lesions in primary molars using bitewing radiographs. Methods: We used a dataset of 1,023 bitewing radiographs of primary molars from children aged 3–10 years. The radiographs were annotated by two examiners using a dedicated annotation platform to draw bounding boxes corresponding to four different primary caries severity stages. Five popular deep learning object detection algorithms were trained to detect the annotated caries and evaluated with various performance metrics, considering three different thresholds: all lesions, dentine caries lesions, and dentine caries lesions requiring operative treatment. Results: For staging caries lesions, the DINO model achieved higher concordance with a weighted kappa score of 0.713 on the test dataset, outperforming other object detectors. The DINO model achieved the highest sensitivity for detecting all caries lesions (0.509) while also attaining the highest sensitivity and accuracy in identifying dentine caries requiring operative treatment, at 0.659 and 0.980, respectively. However, YOLOv7 also achieved good performance, with specificity values exceeding 0.99 and accuracy values exceeding 0.92 across all thresholds. Conclusions: The DINO and YOLOv7 algorithms perform well at detecting caries on primary molars in bitewings, highlighting their potential for clinical application at aiding clinicians in daily practice.},
+  code={https://github.com/zhiqin1998/ped-caries-det},
+  selected={false}
+}
+
+@article{Brady2025,
+  abbr={arXiv},
+  title={PyDPF: A Python Package for Differentiable Particle Filtering},
+  author={Brady, John-Joseph and Cox, Benjamin and Li, Yunpeng and Elvira, V{\'\i}ctor},
+  journal={arXiv preprint arXiv:2510.25693},
+  year={2025},
+  abstract={State-space models (SSMs) are a widely used tool in time series analysis. In the complex systems that arise from real-world data, it is common to employ particle filtering (PF), an efficient Monte Carlo method for estimating the hidden state corresponding to a sequence of observations. Applying particle filtering requires specifying both the parametric form and the parameters of the system, which are often unknown and must be estimated. Gradient-based optimisation techniques cannot be applied directly to standard particle filters, as the filters themselves are not differentiable. However, several recently proposed methods modify the resampling step to make particle filtering differentiable. In this paper, we present an implementation of several such differentiable particle filters (DPFs) with a unified API built on the popular PyTorch framework. Our implementation makes these algorithms easily accessible to a broader research community and facilitates straightforward comparison between them. We validate our framework by reproducing experiments from several existing studies and demonstrate how DPFs can be applied to address several common challenges with state space modelling.},
+  code={https://github.com/John-JoB/pydpf},
+  pdf={https://arxiv.org/abs/2510.25693},
+  selected={false}
+}
 
 @inproceedings{Tan2025a,
   abbr={ODIN},
   title={U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT},
   author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
-  abstract={Cone-Beam Computed Tomography (CBCT) is a widely used 3D imaging technique in dentistry, providing volumetric information about the anatomical structures of jaws and teeth. Accurate segmentation of these anatomies is critical for clinical applications such as diagnosis and surgical planning, but remains time-consuming and challenging. In this paper, we present U-Mamba2, a new neural network architecture designed for multi-anatomy CBCT segmentation in the context of the ToothFairy3 challenge. U-Mamba2 integrates the Mamba2 state space models into the U-Net architecture, enforcing stronger structural constraints for higher efficiency without compromising performance. In addition, we integrate interactive click prompts with cross-attention blocks, pre-train U-Mamba2 using self-supervised learning, and incorporate dental domain knowledge into the model design to address key challenges of dental anatomy segmentation in CBCT. Extensive experiments, including independent tests, demonstrate that U-Mamba2 is both effective and efficient, securing top 3 places in both tasks of the Toothfairy3 challenge. In Task 1, U-Mamba2 achieved a mean Dice of 0.792, HD95 of 93.19 with the held-out test data, with an average inference time of XX (TBC during the ODIN workshop). In Task 2, U-Mamba2 achieved the mean Dice of 0.852 and HD95 of 7.39 with the held-out test data. The code is publicly available at https://github.com/zhiqin1998/UMamba2.},
+  abstract={Cone-Beam Computed Tomography (CBCT) is a widely used 3D imaging technique in dentistry, providing volumetric information about the anatomical structures of jaws and teeth. Accurate segmentation of these anatomies is critical for clinical applications such as diagnosis and surgical planning, but remains time-consuming and challenging. In this paper, we present U-Mamba2, a new neural network architecture designed for multi-anatomy CBCT segmentation in the context of the ToothFairy3 challenge. U-Mamba2 integrates the Mamba2 state space models into the U-Net architecture, enforcing stronger structural constraints for higher efficiency without compromising performance. In addition, we integrate interactive click prompts with cross-attention blocks, pre-train U-Mamba2 using self-supervised learning, and incorporate dental domain knowledge into the model design to address key challenges of dental anatomy segmentation in CBCT. Extensive experiments, including independent tests, demonstrate that U-Mamba2 is both effective and efficient, securing first place in both tasks of the Toothfairy3 challenge. In Task 1, U-Mamba2 achieved a mean Dice of 0.84, HD95 of 38.17 with the held-out test data, with an average inference time of 40.58s. In Task 2, U-Mamba2 achieved the mean Dice of 0.87 and HD95 of 2.15 with the held-out test data. The code is publicly available at https://github.com/zhiqin1998/UMamba2.},
   booktitle={MICCAI Oral and Dental Image aNalysis (ODIN) Workshop},
   year={2025},
-  code={https://github.com/zhiqin1998/UMamba},
+  code={https://github.com/zhiqin1998/UMamba2},
   pdf={https://arxiv.org/pdf/2509.12069},
   selected={true}
 }
@@ -29,38 +115,14 @@
   abbr={ODIN},
   title={U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT},
   author={Zhi Qin Tan and Xiatian Zhu and Owen Addison and Yunpeng Li},
-  abstract={Accurate segmentation of teeth and pulp in Cone-Beam Computed Tomography (CBCT) is vital for clinical applications like treatment planning and diagnosis. However, this process requires extensive expertise and is exceptionally time-consuming, highlighting the critical need for automated algorithms that can effectively utilize unlabeled data. In this paper, we propose U-Mamba2-SSL, a novel semi-supervised learning framework that builds on the U-Mamba2 model and employs a multi-stage training strategy. The framework first pre-trains U-Mamba2 in a self-supervised manner using a disruptive autoencoder. It then leverages unlabeled data through consistency regularization, where we introduce input and feature perturbations to ensure stable model outputs. Finally, a pseudo-labeling strategy is implemented with a reduced loss weighting to minimize the impact of potential errors. U-Mamba2-SSL achieved an average score of 0.872 and a DSC of 0.969 on the validation dataset, demonstrating the superior performance of our approach. The code is available at https://github.com/zhiqin1998/UMamba2.},
+  abstract={Accurate segmentation of teeth and pulp in Cone-Beam Computed Tomography (CBCT) is vital for clinical applications like treatment planning and diagnosis. However, this process requires extensive expertise and is exceptionally time-consuming, highlighting the critical need for automated algorithms that can effectively utilize unlabeled data. In this paper, we propose U-Mamba2-SSL, a novel semi-supervised learning framework that builds on the U-Mamba2 model and employs a multi-stage training strategy. The framework first pre-trains U-Mamba2 in a self-supervised manner using a disruptive autoencoder. It then leverages unlabeled data through consistency regularization, where we introduce input and feature perturbations to ensure stable model outputs. Finally, a pseudo-labeling strategy is implemented with a reduced loss weighting to minimize the impact of potential errors. U-Mamba2-SSL achieved an average score of 0.789 and a DSC of 0.917 on the hidden test set, achieving first place in Task 1 of the STSR 2025 challenge. The code is available at https://github.com/zhiqin1998/UMamba2.},
   booktitle={MICCAI Oral and Dental Image aNalysis (ODIN) Workshop},
   year={2025},
-  code={https://github.com/zhiqin1998/UMamba},
+  code={https://github.com/zhiqin1998/UMamba2},
   pdf={https://arxiv.org/pdf/2509.20154},
   selected={true}
 }
 
-@article{Brady2025,
-  abbr={SP},
-  title={Differentiable Interacting Multiple Model Particle Filtering},
-  author={Brady, John-Joseph and Luo, Yuhui and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
-  journal={Signal Processing},
-  pdf={https://arxiv.org/pdf/2501.18594},
-  year={2025},
-  abstract={We propose a sequential Monte Carlo algorithm for parameter learning when the studied model exhibits random discontinuous jumps in behaviour. To facilitate the learning of high dimensional parameter sets, such as those associated to neural networks, we adopt the emerging framework of differentiable particle filtering, wherein parameters are trained by gradient descent. We design a new differentiable interacting multiple model particle filter to be capable of learning the individual behavioural regimes and the model which controls the jumping simultaneously. In contrast to previous approaches, our algorithm allows control of the computational effort assigned per regime whilst using the probability of being in a given regime to guide sampling. Furthermore, we develop a new gradient estimator that has a lower variance than established approaches and remains fast to compute, for which we prove consistency. We establish new theoretical results of the presented algorithms and demonstrate superior numerical performance compared to the previous state-of-the-art algorithms.},
-  code={https://github.com/John-JoB/DIMMPF},
-  selected={true}
-}
-
-
-@article{chen2025,
-  abbr={FoDS},
-  title={An overview of differentiable particle filters for data-adaptive sequential Bayesian inference},
-  author={Chen, Xiongjie and Li, Yunpeng},
-  journal={Foundations of Data Science},
-  year={2025},
-  abstract={By approximating posterior distributions with weighted samples, particle filters (PFs) provide an efficient mechanism for solving non-linear sequential state estimation problems. While the effectiveness of particle filters has been recognised in various applications, their performance relies on the knowledge of dynamic models and measurement models, as well as the construction of effective proposal distributions. An emerging trend involves constructing components of particle filters using neural networks and optimising them by gradient descent, and such data-adaptive particle filtering approaches are often called differentiable particle filters. Due to the expressiveness of neural networks, differentiable particle filters are a promising computational tool for performing inference on sequential data in complex, high-dimensional tasks, such as vision-based robot localisation. In this paper, we review recent advances in differentiable particle filters and their applications. We place special emphasis on different design choices for key components of differentiable particle filters, including dynamic models, measurement models, proposal distributions, optimisation objectives, and differentiable resampling techniques.},
-  html={https://www.aimsciences.org/article/doi/10.3934/fods.2023014?viewType=HTML},
-  pdf={https://arxiv.org/pdf/2302.09639},
-  selected={true}
-}
 
 @article{Thengane2025,
   abbr={arXiv},
@@ -78,7 +140,7 @@
   abbr={PO},
   title={Do monetary incentives encourage local communities to collect and upload mosquito sound data using smartphones? A case study in the Democratic Republic of the Congo},
   author={Storer, Kieran and Messina, Jane and Herreros-Moya, Eva and Metelo, Emery and Zanga, Josué and Mvuama, Nono and Muzinga, Soleil and Dam, Rinita and Sinka, Marianne and Kiskin, Ivan and Everett, Josh and Li, Yunpeng and Roberts, Stephen and Willis, Katherine},
-  journal={PLOS One},
+  journal={PLoS One},
   pdf={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314122},
   year={2025},
   abstract={Malaria is one of the deadliest vector borne diseases affecting sub-Saharan Africa. A suite of systems are being used to monitor and manage malaria risk and disease incidence, with an increasing focus on technological interventions that allow private citizens to remotely record and upload data. However, data collected by citizen scientists must be standardised and consistent if it is to be used for scientific analysis. Studies that aim to improve data collection quality and quantity have often included incentivisation, providing citizen scientists with monetary or other benefits for their participation in data collection. We tested whether monetary incentives enhance participation and data collection in a study trialling an acoustic mosquito sensor. Working with the community in two health areas in the Democratic Republic of Congo, we measured data collection participation, completeness, and community responses. Our results showed mixed responses to the incentive, with more participants interested in the social status and monetary value of the technology used than the monetary incentive itself. The effect of incentives on data collection varied over the course of the trial, increasing participation in the start of the trial but with no effect in the latter half of the trial. Feedback from participants showed that opinions on technology, research objectives, and incentives varied between communities, and was associated with differences in data collection quantity and quality, suggesting that differences in community interest in data collection and the incentives may be more important than the incentive value itself. These results suggest that though there is an initial benefit, extrinsic motivations do not override differences in intrinsic motivations over time, and enhanced communication and dialogue with participants may improve citizen science participation and attitudes.},
@@ -109,8 +171,7 @@
   abbr={IDJ},
   title={AI-Driven Dental Caries Management Strategies: From Clinical Practice to Professional Education and Public Self Care},
   author={Liang, Yutong and Li, Dongling and Deng, Dongmei and Chu, Chun Hung and Mei, May Lei and Li, Yunpeng and Yu, Na and He, Jinzhi and Cheng, Lei},
-  journal={International Dental Journal
-},
+  journal={International Dental Journal},
   pdf={https://www.sciencedirect.com/science/article/pii/S0020653925001169},
   year={2025},
   abstract={Dental caries is one of the most prevalent chronic diseases among both children and adults, despite being largely preventable. This condition has significant negative impacts on human health and imposes a substantial economic burden. In recent years, scientists and dentists have increasingly started to utilize artificial intelligence (AI), particularly machine learning, to improve the efficiency of dental caries management. This study aims to provide an overview of the current knowledge about the AI-enabled approaches for dental caries management within the framework of personalized patient care. Generally, AI works as a promising tool that can be used by both dental professionals and patients. For dental professionals, it predicts the risk of dental caries by analyzing dental caries risk and protective factors, enabling to formulate personalized preventive measures. AI, especially those based on machine learning and deep learning, can also analyze images to detect signs of dental caries, assist in developing treatment plans, and help to make a risk assessment for pulp exposure during treatment. AI-powered tools can also be used to train dental students through simulations and virtual case studies, allowing them to practice and refine their clinical skills in a risk-free environment. Additionally, AI tracks brushing patterns and provides feedback to improve oral hygiene practices of the patients and the general population, thereby improving their understanding and compliance. This capability of AI can inform future research and the development of new strategies for dental caries management and control.},
@@ -193,6 +254,18 @@
   abstract={Probabilistic modelling on Generative Adversarial Networks (GANs) within the Bayesian framework has shown success in estimating the complex distribution in literature. In this paper, we develop a Bayesian formulation for unsupervised and semi-supervised GAN learning. Specifically, we propose Folded Hamiltonian Monte Carlo (F-HMC) methods within this framework to learn the distributions over the parameters of the generators and discriminators. We show that the F-HMC efficiently approximates multi-modal and high dimensional data when combined with Bayesian GANs. Its composition improves run time and test error in generating diverse samples. Experimental results with high-dimensional synthetic multi-modal data and natural image benchmarks, including CIFAR-10, SVHN and ImageNet, show that F-HMC outperforms the state-of-the-art methods in terms of test error, run times per epoch, inception score and Frechet Inception Distance scores.},
   html={https://proceedings.mlr.press/v222/pourshahrokhi24a.html},
   selected={false}
+}
+
+@article{chen2023,
+  abbr={FoDS},
+  title={An overview of differentiable particle filters for data-adaptive sequential Bayesian inference},
+  author={Chen, Xiongjie and Li, Yunpeng},
+  journal={Foundations of Data Science},
+  year={2023},
+  abstract={By approximating posterior distributions with weighted samples, particle filters (PFs) provide an efficient mechanism for solving non-linear sequential state estimation problems. While the effectiveness of particle filters has been recognised in various applications, their performance relies on the knowledge of dynamic models and measurement models, as well as the construction of effective proposal distributions. An emerging trend involves constructing components of particle filters using neural networks and optimising them by gradient descent, and such data-adaptive particle filtering approaches are often called differentiable particle filters. Due to the expressiveness of neural networks, differentiable particle filters are a promising computational tool for performing inference on sequential data in complex, high-dimensional tasks, such as vision-based robot localisation. In this paper, we review recent advances in differentiable particle filters and their applications. We place special emphasis on different design choices for key components of differentiable particle filters, including dynamic models, measurement models, proposal distributions, optimisation objectives, and differentiable resampling techniques.},
+  html={https://www.aimsciences.org/article/doi/10.3934/fods.2023014?viewType=HTML},
+  pdf={https://arxiv.org/pdf/2302.09639},
+  selected={true}
 }
 
 @inproceedings{li2023,
