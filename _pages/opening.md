@@ -1,11 +1,17 @@
 ---
 layout: page
-permalink: /opening/
+permalink: /openings/
 title: Openings
 description:
 nav: true
 nav_order: 4
 ---
+
+#### Faculty and Research Fellow openings:
+
+I am recruiting a [Research Associate](https://www.kcl.ac.uk/jobs/145128-research-associate) position for an MPS Foundation-supported project on [AI-supported Dental Record Auditing](https://www.thempsfoundation.org/our-research/article/ai-supported-dental-record-self-auditing).
+
+The closing date for the recruitment is 11th May, 2026.
 
 #### Funding opportunities for PhD applicants:
 
@@ -17,7 +23,4 @@ Due to the volume of emails, I will be unable to respond to every enquiry. If yo
 
 1. A fully-funded PhD studentship on [Trustworthy Generative AI in Healthcare
 ](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/trustworthy-generative-ai-in-healthcare)  
-   - **Start date:** October 2025, February 2026, June 2026, October 2026.  
-
-Note: for October 2025 start, the application deadline for international applicants is 25th July, 2025. For UK applicants, the deadline is 25th August, 2025.
-
+   - **Start date:** February 2026, June 2026, October 2026.  
