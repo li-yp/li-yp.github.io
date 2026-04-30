@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-1-30
+date: 2026-3-25
 inline: true
 related_posts: false
 ---
 
-We are recruiting! A [Research Associate / Research Fellow in Digital Oral Health](https://www.kcl.ac.uk/jobs/136585-research-associate-research-fellow-in-digital-oral-health) position is available in the group.
+I presented the [PyDPF](https://github.com/John-JoB/pydpf) work with [John-Joseph Brady](https://scholar.google.com/citations?user=Ia7R-BQAAAAJ&hl=en), Ben Cox and Victor Elvira at the [SIAM Conference on Uncertainty Quantification (UQ26)](https://www.siam.org/conferences-events/past-event-archive/uq26/) in Minneapolis, MN, USA.
