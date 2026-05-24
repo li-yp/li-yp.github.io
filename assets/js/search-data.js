@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-openings",
-          title: "Openings",
+        },{id: "nav-projects",
+          title: "Projects",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/openings/";
+            window.location.href = "/https:/tair-lab.github.io/projects/";
           },
         },{id: "post-a-post-with-image-galleries",
       
@@ -145,6 +145,12 @@ ninja.data = [{
           section: "News",},{id: "news-we-are-recruiting-a-research-associate-position-is-available-for-an-mps-foundation-supported-project-on-ai-supported-dental-record-auditing",
           title: 'We are recruiting! A Research Associate position is available for an MPS Foundation-supported...',
           description: "",
+          section: "News",},{id: "news-our-paper-efficient-learning-of-deep-state-space-models-via-importance-smoothing-is-accepted-at-icml-2026-congratulations-john-jo-and-nik",
+          title: 'Our paper Efficient Learning of Deep State Space Models via Importance Smoothing is...',
+          description: "",
+          section: "News",},{id: "news-the-becertain-team-and-tair-group-members-exhibited-becertain-at-bcdcs-26-at-the-nec-birmingham",
+          title: 'The BeCertain team and TAIR group members exhibited BeCertain at BCDCS’26, at the...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -202,7 +208,7 @@ ninja.data = [{
               window.location.href = "/projects/People_Ruiyang_Hao/";
             },},{id: "projects-xiongjie-chen",
           title: 'Xiongjie Chen',
-          description: "Research Fellow in Machine Learning in Medical Imaging (2023-). PhD (2019-2023)",
+          description: "Research Fellow in Machine Learning in Medical Imaging (2023-2025). PhD (2019-2023)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/People_Xiongjie_Chen/";
             },},{id: "projects-zhi-qin-tan",
