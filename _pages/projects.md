@@ -1,12 +1,9 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: TBA
-nav: false
-nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+title: Projects
+permalink: https://tair-lab.github.io/projects/
+nav: true
+nav_order: 4
 ---
 
 <!-- pages/projects.md -->

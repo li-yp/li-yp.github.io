@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 horizontal: false
-display_categories: [Postdoc, PhD student]
+display_categories: [PhD student, Past Members]
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
