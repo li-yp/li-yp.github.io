@@ -173,7 +173,7 @@ ninja.data = [{
           section: "News",},{id: "news-we-are-offering-a-funded-phd-studentship-on-diffusion-llm-powered-generative-ai-with-healthcare-applications-which-i-will-supervise-with-ayan-das-applications-are-assessed-on-a-rolling-basis-so-apply-early-the-deadline-is-15-august-2026-see-openings",
           title: 'We are offering a funded PhD studentship on Diffusion/LLM Powered Generative AI with...',
           description: "",
-          section: "News",},{id: "news-our-king-s-spin-out-becertain-has-completed-a-1-7-million-pre-seed-round-led-by-sure-valley-ventures-with-support-from-innovate-uk-to-bring-clinical-grade-ai-to-dental-diagnostics-read-the-king-s-news-story",
+          section: "News",},{id: "news-our-king-s-spin-out-becertain-has-completed-a-1-7-million-pre-seed-round-led-by-sure-valley-ventures-with-support-from-innovate-uk-to-bring-clinical-grade-ai-to-dental-diagnostics-read-the-king-s-news-story-becertain-is-now-hiring-its-first-commercial-lead",
           title: 'Our King’s spin-out BeCertain has completed a £1.7 million pre-seed round, led by...',
           description: "",
           section: "News",},{id: "news-we-are-recruiting-a-four-year-postdoctoral-research-associate-to-join-the-translational-ai-research-lab-working-on-trustworthy-ai-for-scientific-discovery-and-biomanufacturing-as-part-of-a-horizon-europe-project-the-deadline-for-applications-is-9-august-2026-see-openings",
