@@ -234,6 +234,11 @@ ninja.data = [{
           description: "PhD student (2025-)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/People_Ruiyang_Hao/";
+            },},{id: "projects-weidong-liang",
+          title: 'Weidong Liang',
+          description: "Postdoctoral Research Associate (2026-)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/People_Weidong_Liang/";
             },},{id: "projects-xiongjie-chen",
           title: 'Xiongjie Chen',
           description: "Research Fellow in Machine Learning in Medical Imaging (2023-2025). PhD (2019-2023)",
