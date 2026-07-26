@@ -7,9 +7,9 @@ nav: true
 nav_order: 4
 ---
 
-#### Funded PhD studentships:
+#### Funded PhD positions:
 
-I am offering a funded PhD studentship on [Diffusion/LLM Powered Generative AI with Healthcare Applications](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-diffusionllm-powered-generative-ai-with-healthcare-applications), co-supervised with [Ayan Das](https://ayandas.me/). Applications are assessed on a rolling basis, so please apply early. The deadline is 15 August 2026.
+I am offering a funded PhD position on [Diffusion/LLM Powered Generative AI with Healthcare Applications](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-diffusionllm-powered-generative-ai-with-healthcare-applications), co-supervised with [Ayan Das](https://ayandas.me/). Applications are assessed on a rolling basis, so please apply early. The deadline is 15 August 2026.
 
 <br>
 
