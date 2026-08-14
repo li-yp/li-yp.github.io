@@ -9,7 +9,11 @@ nav_order: 4
 
 #### Funded PhD positions:
 
-I am offering a funded PhD position on [Diffusion/LLM Powered Generative AI with Healthcare Applications](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-diffusionllm-powered-generative-ai-with-healthcare-applications), co-supervised with [Ayan Das](https://ayandas.me/). Applications are assessed on a rolling basis, so please apply early. The deadline is 15 August 2026.
+I am offering a fully funded PhD position on [Trustworthy Generative AI in Healthcare](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-trustworthy-generative-ai-in-healthcare), co-supervised with [Yali Du](https://yalidu.github.io/). The studentship runs for 3 years and covers tuition fees at the home or international rate plus a stipend at the UKRI London rate, for a 1 February, 1 June or 1 October 2027 start. Applications are assessed on a rolling basis and the project stays open until a suitable candidate is found, so please apply early. Apply through [apply.kcl.ac.uk](https://apply.kcl.ac.uk/) for Dental and Health Sciences Research MPhil/PhD (Full-time), quoting reference 2026YL-TGAi-R2 in the research proposal section. Please email me before applying to discuss the project.
+
+<br>
+
+I am also offering a funded PhD position on [Diffusion/LLM Powered Generative AI with Healthcare Applications](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-diffusionllm-powered-generative-ai-with-healthcare-applications), co-supervised with [Ayan Das](https://ayandas.me/). Applications are assessed on a rolling basis, so please apply early. The deadline is 15 August 2026.
 
 <br>
 
