@@ -239,6 +239,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-ayan-das",
+          title: 'Ayan Das',
+          description: "AI+ Academic Senior Fellow (2026-)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/People_Ayan_Das/";
             },},{id: "projects-john-joseph-brady",
           title: 'John-Joseph Brady',
           description: "PhD student (2023-)",
