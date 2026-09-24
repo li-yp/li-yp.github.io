@@ -13,7 +13,7 @@ I am offering a fully funded PhD position on [Trustworthy Generative AI in Healt
 
 <br>
 
-I am also offering a funded PhD position on [Diffusion/LLM Powered Generative AI with Healthcare Applications](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-diffusionllm-powered-generative-ai-with-healthcare-applications), co-supervised with [Ayan Das](https://ayandas.me/). Applications are assessed on a rolling basis, so please apply early. The deadline is 15 August 2026.
+I am also offering a funded PhD position on [Diffusion/LLM Powered Generative AI with Healthcare Applications](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-diffusionllm-powered-generative-ai-with-healthcare-applications), co-supervised with [Ayan Das](https://ayandas.me/), for a 1 February 2027 start. Applications are assessed on a rolling basis, so please apply early. The deadline is 31 October 2026.
 
 <br>
 
