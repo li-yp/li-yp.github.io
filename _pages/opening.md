@@ -9,7 +9,7 @@ nav_order: 4
 
 #### Funded PhD positions:
 
-I am offering a fully funded PhD position on [Trustworthy Generative AI in Healthcare](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-trustworthy-generative-ai-in-healthcare), co-supervised with [Yali Du](https://yalidu.github.io/). The studentship runs for 3 years and covers tuition fees at the home or international rate plus a stipend at the UKRI London rate, for a 1 February, 1 June or 1 October 2027 start. Applications are shortlisted on a rolling basis. Early applications are encouraged.
+I am offering a fully funded PhD position on [Trustworthy Generative AI in Healthcare](https://www.kcl.ac.uk/dentistry/research/phd-opportunities-folder/cocts-trustworthy-generative-ai-in-healthcare), co-supervised with [Yali Du](https://yalidu.github.io/). The studentship runs for 3 years and covers tuition fees at the home or international rate plus a stipend at the UKRI London rate, for a 1 February, 1 June or 1 October 2027 start. The deadline is 30 September 2026.
 
 <br>
 
@@ -20,12 +20,6 @@ I am also offering a funded PhD position on [Diffusion/LLM Powered Generative AI
 #### Postdoctoral positions:
 
 We are recruiting a [Postdoctoral Research Associate](https://my.corehr.com/pls/kclrecruit/erq_jobspec_version_4.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=152845) to join the Translational AI Research Lab, working on trustworthy AI for scientific discovery and biomanufacturing as part of a Horizon Europe project. The post is full-time and fixed-term until 31 August 2030. The deadline is 9 August 2026 (Ref: 152845).
-
-<br>
-
-#### Positions at BeCertain:
-
-Our King's spin-out [BeCertain](https://becertain.ai/) is hiring a [Commercial Lead](https://www.linkedin.com/jobs/view/4435326111/) to take its clinical-grade dental AI to market in the UK. This is a company role rather than an academic one, and applications go through the LinkedIn posting.
 
 <br>
 
