@@ -191,6 +191,9 @@ ninja.data = [{
           section: "News",},{id: "news-ayan-das-and-i-attended-the-kick-off-meeting-of-the-horizon-europe-project-biofactory-in-bergen-norway-hosted-by-the-coordinator-the-university-of-bergen-king-s-leads-the-project-s-ai-module",
           title: 'Ayan Das and I attended the kick-off meeting of the Horizon Europe project...',
           description: "",
+          section: "News",},{id: "news-welcome-yongxin-yang-to-the-faculty-of-dentistry-oral-amp-amp-craniofacial-sciences-at-king-s-college-london-yongxin-joins-as-a-doubleday-ai-academic-fellow-in-translational-health-research",
+          title: 'Welcome Yongxin Yang to the Faculty of Dentistry, Oral &amp;amp;amp; Craniofacial Sciences at...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -261,6 +264,11 @@ ninja.data = [{
           description: "Research Fellow in Machine Learning in Medical Imaging (2023-2025). PhD (2019-2023)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/People_Xiongjie_Chen/";
+            },},{id: "projects-yongxin-yang",
+          title: 'Yongxin Yang',
+          description: "Doubleday AI Academic Fellow in Translational Health Research (2026-)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/People_Yongxin_Yang/";
             },},{id: "projects-zhi-qin-tan",
           title: 'Zhi Qin Tan',
           description: "PhD student (2023-)",
