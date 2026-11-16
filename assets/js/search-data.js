@@ -275,6 +275,11 @@ ninja.data = [{
           description: "Doubleday AI Academic Fellow in Translational Health Research (2026-)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/People_Yongxin_Yang/";
+            },},{id: "projects-yunpeng-li",
+          title: 'Yunpeng Li',
+          description: "Reader in AI &amp; Digital Oral Health",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/People_Yunpeng_Li/";
             },},{id: "projects-zhi-qin-tan",
           title: 'Zhi Qin Tan',
           description: "PhD student (2023-)",
